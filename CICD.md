@@ -96,6 +96,38 @@ docker-compose up -d
 
 
 
+
+
+新建一个java-project
+
+```bash
+http://106.54.207.160:8929/root/java-project.git
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 2.3 Docker/Docker-Compose安装 (Operate阶段工具)
 
 省略。
