@@ -34,6 +34,30 @@ Git学习：见Git.md
 
 
 
+## 2.2 安装JDK和maven
+
+```bash
+wget https://wenyi-bucket1.oss-cn-hangzhou.aliyuncs.com/apache-maven-3.9.12-bin.tar.gz
+
+wget https://wenyi-bucket1.oss-cn-hangzhou.aliyuncs.com/jdk-24.0.1_linux-x64_bin.tar.gz
+
+tar -zxvf jdk-24.0.1_linux-x64_bin.tar.gz -C /usr/local
+
+tar -zxvf apache-maven-3.9.12-bin.tar.gz -C /usr/local
+
+cd /usr/local
+
+mv jdk-24.0.1/ jdk/
+
+mv apache-maven-3.9.12/ maven
+
+ls
+```
+
+
+
+
+
 
 
 ## 2.2 Gitlab安装
