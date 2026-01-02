@@ -96,6 +96,55 @@ docker-compose up -d
 
 
 
+## 2.3 Docker/Docker-Compose安装 (Operate阶段工具)
+
+省略。
+
+
+
+
+
+## 2.4 Jenkins安装与配置
+
+
+
+```bash
+# 
+docker pull jenkins/jenkins:2.516.1-lts
+
+
+
+```
+
+
+
+docker compose yaml文件：
+
+```yaml
+version: "3.1"
+services:
+  jenkins:
+    image: jenkins/jenkins:2.516.1-lts
+    container_name: jenkins
+    ports:
+      - 8080:8080
+      - 50000:50000
+    volumes:
+      - ./data/:/var/jenkins_home/
+```
+
+
+
+启动容器：
+
+```bash
+docker-compose up -d
+```
+
+
+
+
+
 
 
 
