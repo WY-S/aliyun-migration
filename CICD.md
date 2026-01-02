@@ -201,7 +201,11 @@ docker-compose up -d
 
 
 
+token:
 
+```bash
+glpat-I6rfOB9aOfI0RB4hLNirgW86MQp1OjEH.01.0w14361qc
+```
 
 
 
